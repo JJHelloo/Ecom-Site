@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to right, #3C4142, #586856);
+    padding: 1rem;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    height: 77px; /* You might want to make this responsive with a max-height or percentages */
+}
+
+nav a {
+    color: #fff;
+    font-family: 'Merriweather', serif;
+    text-decoration: none;
+    padding: 0.5em 1em; /* Adjust padding to use em or rem for scalability */
+}
+
+.cart {
+    margin-left: auto; /* This pushes the cart to the right side */
+    display: flex;
+    align-items: center;
+}
+
+.cart img {
+    height: 44px; /* You can use max-height to ensure it scales down on smaller screens */
+}
+
+nav a:hover {
+    color: #9ea4a5;
+}
+
+.products {
+    color: #fd7e14;
+}
+
+.products:hover {
+    color: #e67300;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav {
+        margin-top: 1em;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .cart {
+        margin-left: 0;
+        position: static; /* Resets any absolute positioning */
+    }
+
+    .cart img {
+        height: 36px; /* Smaller size for smaller screens */
+    }
+}

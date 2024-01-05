@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+footer {
+    margin-top: auto;
+    background: #000;
+    color: #fff; /* Text color, typically white on a black background */
+    padding: 30px; /* Adjust the padding to your preference */
+    text-align: center; /* Center-align the content within the footer */
+    font-family: 'Merriweather', serif;
+}

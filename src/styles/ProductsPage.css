@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+
+.products-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 1rem;
+}
+/* 586856*/
+
+.product-card {
+  width: 300px; /* Suitable width for each card */
+  border: 1px solid #ccc; /* Subtle border */
+  border-radius: 8px; /* Rounded corners */
+  overflow: hidden; /* Ensures content fits neatly in the card */
+  margin: 1rem; /* Spacing around each card */
+  text-align: center; /* Center-aligns the content */
+  background: #c8c6c6; /* White background for the card */
+  font-family: 'Merriweather', serif; /* Merriweather font for consistency */
+}
+
+.product-card img {
+  width: 100%; /* Image takes the full width of the card */
+  height: auto; /* Maintains the aspect ratio of the image */
+}
+
+.product-card h3 {
+  margin: 0.5rem 0; /* Margin around the title */
+  color: #000; /* Dark color for the title for readability */
+}
+
+.product-card p {
+  font-size: 0.9rem; /* Slightly smaller font size for the description */
+  color: #000; /* Dark gray color for the paragraph */
+  margin: 0.5rem; /* Margin around the paragraph */
+}
+
+.product-card button {
+  background-color: #fd7e14; /* Bright color for the button */
+  color: white; /* White text for the button */
+  border: none; /* No border for the button */
+  padding: 0.5rem 1rem; /* Padding inside the button */
+  margin-bottom: 1rem; /* Margin at the bottom of the button */
+  cursor: pointer; /* Pointer cursor on hover */
+  border-radius: 4px; /* Rounded corners for the button */
+}
+
+.product-card button:hover {
+  background-color: #e67300; /* Darker shade on hover */
+}
+img {
+    color: #000;
+}

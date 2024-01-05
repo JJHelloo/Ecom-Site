@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "Classic Black Matte Vehicle Wrap",
+        "description": "High-quality black matte wrap for a sleek and modern look.",
+        "price": 250.0,
+        "image": "../images/wrap-product.png"
+    },
+    {
+        "id": 2,
+        "name": "Bright Racing Stripe Wrap",
+        "description": "Vibrant racing stripes to add a sporty touch to your vehicle.",
+        "price": 150.0,
+        "image": "racing-stripe-wrap.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Carbon Fiber Texture Wrap",
+        "description": "Realistic carbon fiber texture for a high-tech appearance.",
+        "price": 300.0,
+        "image": "carbon-fiber-wrap.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Glossy Metallic Finish Wrap",
+        "description": "Shiny metallic finish to stand out on the road.",
+        "price": 275.0,
+        "image": "metallic-finish-wrap.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Custom Design Wrap",
+        "description": "Personalized wrap with your custom design for a unique look.",
+        "price": " Qoute",
+        "image": "../images/wrap-product.png"
+    }
+]

@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+
+/* HomePage.css */
+.hero-section {
+    height: 500px; /* Set the height you want for your image container */
+    background-image: url('../images/GatorWrapsTruck.png'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  .break {
+    border-top: 2px solid #586856;
+    margin: 20px auto; /* 'auto' horizontally centers the div if a width is set */
+    width: 80%; /* Adjust the width as necessary, or use a max-width */
+    max-width: 1200px; /* This limits how wide the line can get */
+  }
+  .product {
+    display: flex;
+    align-items: flex-start; /* Aligns items to the top */
+    justify-content: space-between;
+    padding: 20px 0;
+    max-width: 1200px; /* Or whatever maximum width you prefer */
+    margin: auto; /* This will center the .product container */
+  }
+  .product-text .lead-text{
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 26px;
+    color: #90c989;
+  }
+  
+  .product-text {
+    flex: 1; /* Allows this item to grow and shrink as needed */
+    padding-right: 20px; /* Adds some space between the text and the images */
+  }
+  .product-text p {
+    margin-bottom: 1em; /* Adds more vertical space after paragraphs */
+    line-height: 1.8; /* Increases the line spacing */
+    font-family: 'Merriweather', serif;
+  }
+  
+  .product-images {
+    display: flex;
+    flex: 2; /* Allows this item to take up twice as much space as .product-text */
+    justify-content: space-between; /* Distributes space between the images */
+  }
+  
+  .product-images img {
+    width: 100%; /* Each image will try to fill 100% of its container */
+    max-width: 200px; /* Decrease max-width to make images smaller */
+    height: auto; /* Maintain the aspect ratio */
+    margin: 0 10px; /* Add some horizontal space between images */
+  }
+  .product-item {
+    text-align: center; /* Centers the content */
+    margin: 0 10px; /* Maintains horizontal space between items */
+    font-size: 20px;
+  }
+  .product-item img {
+    width: 100%; /* Each image will try to fill 100% of its container */
+    max-width: 200px; /* Sets the maximum width for the image */
+    height: auto; /* Maintain the aspect ratio */
+    display: block; /* Ensures the image is a block-level element, allowing text to appear below it */
+    margin-bottom: 8px; /* Adds space between the image and the text below */
+  }
+  
+  
+  @media (max-width: 768px) {
+    .hero-section {
+      height: 300px; /* Smaller height for mobile devices */
+    }
+  }
+  

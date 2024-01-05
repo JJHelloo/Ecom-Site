@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+
+.cart-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cart-container h2 {
+  text-align: center;
+  color: #333;
+  font-family: 'Merriweather', serif;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding: 1rem 0;
+}
+
+.cart-item img {
+  width: 100px;
+  height: auto;
+  margin-right: 1rem;
+}
+
+.cart-item div {
+  flex-grow: 1;
+}
+
+.cart-item h3 {
+  font-size: 1.2rem;
+  color: #333;
+  margin: 0.5rem 0;
+}
+
+.cart-item p {
+  font-size: 0.9rem;
+  color: #666;
+  margin: 0.25rem 0;
+}
+
+.cart-item button {
+  background-color: #fd7e14;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cart-item button:hover {
+  background-color: #e67300;
+}
+
+/* Style for empty cart message */
+.cart-container p {
+  text-align: center;
+  color: #666;
+  font-style: italic;
+}
+
+/* Additional styles for quantity and price display, if needed */
+.cart-item .quantity,
+.cart-item .price {
+  font-weight: bold;
+}
