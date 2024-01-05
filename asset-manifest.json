@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Ecom-Site/static/css/main.14790a5b.chunk.css",
-    "main.js": "/Ecom-Site/static/js/main.cef035e0.chunk.js",
-    "main.js.map": "/Ecom-Site/static/js/main.cef035e0.chunk.js.map",
+    "main.js": "/Ecom-Site/static/js/main.e8a6dc75.chunk.js",
+    "main.js.map": "/Ecom-Site/static/js/main.e8a6dc75.chunk.js.map",
     "runtime~main.js": "/Ecom-Site/static/js/runtime~main.71a8dade.js",
     "runtime~main.js.map": "/Ecom-Site/static/js/runtime~main.71a8dade.js.map",
     "static/js/2.28e77a7c.chunk.js": "/Ecom-Site/static/js/2.28e77a7c.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.2ebb6cf0.chunk.js": "/Ecom-Site/static/js/3.2ebb6cf0.chunk.js",
     "static/js/3.2ebb6cf0.chunk.js.map": "/Ecom-Site/static/js/3.2ebb6cf0.chunk.js.map",
     "index.html": "/Ecom-Site/index.html",
-    "precache-manifest.efc622d5c47ab8d4f67b3fe505b01d44.js": "/Ecom-Site/precache-manifest.efc622d5c47ab8d4f67b3fe505b01d44.js",
+    "precache-manifest.44640521480c5e10a9319e2e204d9c49.js": "/Ecom-Site/precache-manifest.44640521480c5e10a9319e2e204d9c49.js",
     "service-worker.js": "/Ecom-Site/service-worker.js",
     "static/css/main.14790a5b.chunk.css.map": "/Ecom-Site/static/css/main.14790a5b.chunk.css.map",
     "static/media/GatorLogo.png": "/Ecom-Site/static/media/GatorLogo.ad2debe9.png",
