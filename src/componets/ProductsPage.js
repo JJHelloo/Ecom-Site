@@ -1,29 +1,25 @@
-import React, { useState, useEffect } from 'react';
+import React, {useEffect} from 'react';
 import { ProductsInfo } from './ProductsInfo.js'; 
 import '../styles/ProductsPage.css'; 
 
-const ProductsPage = () => {
-  // Initialize the cart from localStorage if available, otherwise set to an empty array
-  const [cart, setCart] = useState(() => {
-    const savedCart = localStorage.getItem('cart');
-    return savedCart ? JSON.parse(savedCart) : [];
-  });
-
-  // Add product to cart and save it to localStorage
+const ProductsPage = ({ cart, setCart }) => {
+  
   const addToCart = (productToAdd) => {
     setCart(currentCart => {
-      // Check if the product is already in the cart
-      const isProductInCart = currentCart.find(product => product.id === productToAdd.id);
-
-      // If so, just return the current cart without adding it
-      if (isProductInCart) {
-        return currentCart;
+      const existingProductIndex = currentCart.findIndex(product => product.id === productToAdd.id);
+      if (existingProductIndex >= 0) {
+        // Clone the cart to avoid mutating the state directly
+        const updatedCart = [...currentCart];
+        // Initialize quantity to 1 if it's not set
+        const existingQuantity = updatedCart[existingProductIndex].quantity || 0;
+        updatedCart[existingProductIndex] = {
+          ...updatedCart[existingProductIndex],
+          quantity: existingQuantity + 1
+        };
+        return updatedCart;
+      } else {
+        return [...currentCart, { ...productToAdd, quantity: 1 }];
       }
-
-      // Otherwise, add the new product and return the updated cart
-      const updatedCart = [...currentCart, productToAdd];
-      localStorage.setItem('cart', JSON.stringify(updatedCart));
-      return updatedCart;
     });
   };
 

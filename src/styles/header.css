@@ -3,7 +3,7 @@
 header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between; /* Keeps items spaced out */
     background: linear-gradient(to right, #3C4142, #586856);
     padding: 1rem;
 }
@@ -14,24 +14,24 @@ nav {
 }
 
 header img {
-    height: 77px; /* You might want to make this responsive with a max-height or percentages */
+    height: 77px; /* Consider using max-height for responsiveness */
 }
 
 nav a {
     color: #fff;
     font-family: 'Merriweather', serif;
     text-decoration: none;
-    padding: 0.5em 1em; /* Adjust padding to use em or rem for scalability */
+    padding: 0.5em 1em;
 }
 
 .cart {
-    margin-left: auto; /* This pushes the cart to the right side */
+    margin-left: auto; /* Pushes cart to the right */
     display: flex;
     align-items: center;
 }
 
 .cart img {
-    height: 44px; /* You can use max-height to ensure it scales down on smaller screens */
+    height: 44px; /* Consider using max-height for responsiveness */
 }
 
 nav a:hover {
@@ -39,32 +39,66 @@ nav a:hover {
 }
 
 .products {
-    color: #fd7e14;
+    /* color: #fd7e14; */
 }
 
 .products:hover {
-    color: #e67300;
+    /* color: #e67300; */
 }
+.cart-icon-container {
+    position: relative; /* This is essential for absolute positioning of the counter */
+    display: inline-flex; /* Using flex for better alignment */
+    align-items: center; /* Align items vertically */
+    justify-content: center; /* Center content horizontally */
+}
+
+.cart-counter {
+    position: absolute;
+    top: -5px; /* Start by setting it to the top edge of the container */
+    right: 30px; /* Start by setting it to the right edge of the container */
+    background-color: #fd7e14;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 0.8rem;
+    text-align: center;
+    transform: translate(25%, -25%); /* Adjust this value as necessary */
+}
+
+  
 
 /* Responsive styles */
 @media (max-width: 768px) {
     header {
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
     }
 
     nav {
-        margin-top: 1em;
         width: 100%;
-        justify-content: space-between;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 1em;
     }
 
     .cart {
         margin-left: 0;
-        position: static; /* Resets any absolute positioning */
+        position: static;
     }
 
     .cart img {
-        height: 36px; /* Smaller size for smaller screens */
+        height: 36px; /* Smaller cart icon for mobile */
+    }
+
+    .cart-icon-container {
+        /* Adjustments specific to mobile view */
+    }
+
+    .cart-counter {
+        font-size: 0.7rem; /* Smaller font size for mobile */
+        top: -3px; /* Adjust top position for mobile */
+        right: 15px; /* Adjust right position for mobile */
+        transform: translate(20%, -20%); /* Adjust transform for mobile */
+        /* You might need to fine-tune the top, right, and transform values */
     }
 }
