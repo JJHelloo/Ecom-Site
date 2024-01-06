@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Ecom-Site/static/css/main.e64638d5.chunk.css",
-    "main.js": "/Ecom-Site/static/js/main.e89b3180.chunk.js",
-    "main.js.map": "/Ecom-Site/static/js/main.e89b3180.chunk.js.map",
+    "main.js": "/Ecom-Site/static/js/main.87650e52.chunk.js",
+    "main.js.map": "/Ecom-Site/static/js/main.87650e52.chunk.js.map",
     "runtime~main.js": "/Ecom-Site/static/js/runtime~main.71a8dade.js",
     "runtime~main.js.map": "/Ecom-Site/static/js/runtime~main.71a8dade.js.map",
     "static/js/2.28e77a7c.chunk.js": "/Ecom-Site/static/js/2.28e77a7c.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.2ebb6cf0.chunk.js": "/Ecom-Site/static/js/3.2ebb6cf0.chunk.js",
     "static/js/3.2ebb6cf0.chunk.js.map": "/Ecom-Site/static/js/3.2ebb6cf0.chunk.js.map",
     "index.html": "/Ecom-Site/index.html",
-    "precache-manifest.c5f4176ed17076bebb7d03867c17d149.js": "/Ecom-Site/precache-manifest.c5f4176ed17076bebb7d03867c17d149.js",
+    "precache-manifest.f149fb2c55e756076c641724efbf97c9.js": "/Ecom-Site/precache-manifest.f149fb2c55e756076c641724efbf97c9.js",
     "service-worker.js": "/Ecom-Site/service-worker.js",
     "static/css/main.e64638d5.chunk.css.map": "/Ecom-Site/static/css/main.e64638d5.chunk.css.map",
     "static/media/GatorLogo.png": "/Ecom-Site/static/media/GatorLogo.ad2debe9.png",
@@ -18,7 +18,7 @@
     "static/media/banner-product.png": "/Ecom-Site/static/media/banner-product.014035c3.png",
     "static/media/banner.png": "/Ecom-Site/static/media/banner.1da150ad.png",
     "static/media/black-wrap.png": "/Ecom-Site/static/media/black-wrap.de4c39fa.png",
-    "static/media/cartImage.png": "/Ecom-Site/static/media/cartImage.f722b8e4.png",
+    "static/media/cart.png": "/Ecom-Site/static/media/cart.2efb530f.png",
     "static/media/contact.png": "/Ecom-Site/static/media/contact.8c04d24c.png",
     "static/media/gatorbanner.png": "/Ecom-Site/static/media/gatorbanner.dae3a9bf.png",
     "static/media/gatorwrap.png": "/Ecom-Site/static/media/gatorwrap.5e92b2d7.png",

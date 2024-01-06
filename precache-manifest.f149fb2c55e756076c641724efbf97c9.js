@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ba999cf84b9025c910d7a3eedceba542",
+    "revision": "532a84163e6e512489b8f5a38a79834d",
     "url": "/Ecom-Site/index.html"
   },
   {
-    "revision": "0539d37a69abf32e2472",
+    "revision": "f3ac7e34c7b5841f771a",
     "url": "/Ecom-Site/static/css/main.e64638d5.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Ecom-Site/static/js/3.2ebb6cf0.chunk.js"
   },
   {
-    "revision": "0539d37a69abf32e2472",
-    "url": "/Ecom-Site/static/js/main.e89b3180.chunk.js"
+    "revision": "f3ac7e34c7b5841f771a",
+    "url": "/Ecom-Site/static/js/main.87650e52.chunk.js"
   },
   {
     "revision": "e9db2b388c864b6aed94",
@@ -44,8 +44,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Ecom-Site/static/media/black-wrap.de4c39fa.png"
   },
   {
-    "revision": "f722b8e44dce40bfe0ef1156eb264090",
-    "url": "/Ecom-Site/static/media/cartImage.f722b8e4.png"
+    "revision": "2efb530ff263ca6127328c6a4cbff0dd",
+    "url": "/Ecom-Site/static/media/cart.2efb530f.png"
   },
   {
     "revision": "8c04d24c90aa809c4ff718adf61f9d39",
