@@ -23,7 +23,7 @@ const App = () => {
   }, [cart]);
 
   return (
-    <Router basename="/Ecom-Site" >
+    <Router  basename="/Ecom-Site">
       <Header cart={cart} />
 
       <Routes>

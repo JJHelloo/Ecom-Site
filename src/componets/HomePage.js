@@ -102,7 +102,7 @@ const HomePage = () => {
                     ))}
                 </div>
             </div>
-            <div  className='break'></div>
+            <div  data-aos="zoom-in" className='break'></div>
             <div className='product'>
                 <div data-aos="zoom-in" className="product-text">
                     <h3 className='lead-text'>Why Choose Gator Graphics?</h3>
@@ -145,6 +145,7 @@ const HomePage = () => {
                     ))}
                 </Slider>
             </div>
+            <div data-aos="zoom-in" className='break'></div>
             <div data-aos="fade-up" className="services-section">
                 <h2>Our Services</h2>
                 <div className="service-items">
@@ -171,6 +172,27 @@ const HomePage = () => {
 
                     {/* Add more services as needed */}
                 </div>
+                <div data-aos="zoom-in" className='break'></div>
+                <div data-aos="zoom-in" className="get-in-touch-section">
+                <h2>Get in Touch</h2>
+                <p>We would love to hear from you! Whether you have a question about our services or need a quote, our team is ready to answer all your inquiries.</p>
+                
+                {/* Contact Form */}
+                <form data-aos="zoom-in" className="contact-form">
+                    <input type="text" placeholder="Your Name" />
+                    <input type="email" placeholder="Your Email" />
+                    <textarea placeholder="Your Message"></textarea>
+                    <button type="">Send Message</button>
+                </form>
+
+                {/* Contact Information */}
+                <div data-aos="zoom-in" className="contact-info">
+                    <p><strong>Phone:</strong> (123) 456-7890</p>
+                    <p><strong>Email:</strong> info@example.com</p>
+                    {/* Add more contact details or social media links as needed */}
+                </div>
+            </div>
+
 </div>
 
         </>
