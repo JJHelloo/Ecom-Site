@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Ecom-Site/static/css/main.97f97359.css",
+    "main.css": "/Ecom-Site/static/css/main.f099aadd.css",
     "main.js": "/Ecom-Site/static/js/main.813f9c11.js",
     "static/js/787.0da601b3.chunk.js": "/Ecom-Site/static/js/787.0da601b3.chunk.js",
     "static/media/GatorWrapsTruck.png": "/Ecom-Site/static/media/GatorWrapsTruck.4bed9af57b483a62a257.png",
@@ -20,12 +20,12 @@
     "static/media/slick.ttf": "/Ecom-Site/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Ecom-Site/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Ecom-Site/index.html",
-    "main.97f97359.css.map": "/Ecom-Site/static/css/main.97f97359.css.map",
+    "main.f099aadd.css.map": "/Ecom-Site/static/css/main.f099aadd.css.map",
     "main.813f9c11.js.map": "/Ecom-Site/static/js/main.813f9c11.js.map",
     "787.0da601b3.chunk.js.map": "/Ecom-Site/static/js/787.0da601b3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.97f97359.css",
+    "static/css/main.f099aadd.css",
     "static/js/main.813f9c11.js"
   ]
 }
