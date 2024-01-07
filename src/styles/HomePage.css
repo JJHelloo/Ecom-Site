@@ -195,7 +195,32 @@ html, body {
 .author {
   font-weight: bold;
 }
-
+    /* Targeting all AOS-animate elements */
+    .aos-animate {
+      transition-duration: 3000ms !important; /* Slower animation duration on mobile */
+    }
+    .services-section {
+      text-align: center;
+      padding: 40px 20px;
+  }
+  
+  .services-section .service-items {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+  }
+  
+  .service-item {
+      width: 30%; /* Adjust based on how many items per row */
+      padding: 15px;
+      box-sizing: border-box;
+  }
+  
+  .service-item img {
+      width: 80px; /* Adjust size as needed */
+      height: 80px; /* Adjust size as needed */
+      margin-bottom: 20px;
+  }
 
 @media (max-width: 768px) {
   .hero-section {
@@ -233,5 +258,12 @@ html, body {
   .dot {
       height: 12px;
       width: 12px;
+  }
+    /* Targeting all AOS-animate elements */
+    .aos-animate {
+      transition-duration: 3000ms !important; /* Slower animation duration on mobile */
+    }
+    .service-item {
+      width: 100%; /* Full width on smaller screens */
   }
 }

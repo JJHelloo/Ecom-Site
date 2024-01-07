@@ -7,6 +7,8 @@ import bannerImage from '../images/banner-product.png';
 import wrap from '../images/wrap.png';
 import banner from '../images/banner.png';
 import contact from '../images/contact.png';
+import gatorBanner from '../images/gatorbanner.png'
+import gatorWrap from "../images/gatorwrap.png"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Slider from 'react-slick';
@@ -139,9 +141,38 @@ const HomePage = () => {
                             <p className="quote">{testimonial.quote}</p>
                             <p className="author">{testimonial.author}</p>
                         </div>
+                        
                     ))}
                 </Slider>
             </div>
+            <div data-aos="fade-up" className="services-section">
+                <h2>Our Services</h2>
+                <div className="service-items">
+                    {/* Service Item 1 */}
+                    <div className="service-item">
+                        <img src={gatorWrap} alt="Service 1" />
+                        <h3>Custom Vehicle Wraps</h3>
+                        <p>Transform your vehicle into a mobile billboard with our high-quality, durable vehicle wraps.</p>
+                    </div>
+
+                    {/* Service Item 2 */}
+                    <div className="service-item">
+                        <img src={banner} alt="Service 2" />
+                        <h3>Graphic Design</h3>
+                        <p>From logos to branding materials, our expert designers bring your vision to life with creative designs.</p>
+                    </div>
+
+                    {/* Service Item 3 */}
+                    <div className="service-item">
+                        <img src= {gatorBanner} alt="Service 3" />
+                        <h3>Outdoor Advertising</h3>
+                        <p>Capture attention with our custom banners, billboards, and signage solutions for your business.</p>
+                    </div>
+
+                    {/* Add more services as needed */}
+                </div>
+</div>
+
         </>
     );
 };
