@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Ecom-Site/static/css/main.b1b8e3d1.css",
-    "main.js": "/Ecom-Site/static/js/main.550161da.js",
+    "main.css": "/Ecom-Site/static/css/main.97f97359.css",
+    "main.js": "/Ecom-Site/static/js/main.6cd72f2c.js",
     "static/js/787.0da601b3.chunk.js": "/Ecom-Site/static/js/787.0da601b3.chunk.js",
     "static/media/GatorWrapsTruck.png": "/Ecom-Site/static/media/GatorWrapsTruck.4bed9af57b483a62a257.png",
     "static/media/black-wrap.png": "/Ecom-Site/static/media/black-wrap.2c6a22e5f39ed6a14e30.png",
@@ -20,12 +20,12 @@
     "static/media/slick.ttf": "/Ecom-Site/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Ecom-Site/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Ecom-Site/index.html",
-    "main.b1b8e3d1.css.map": "/Ecom-Site/static/css/main.b1b8e3d1.css.map",
-    "main.550161da.js.map": "/Ecom-Site/static/js/main.550161da.js.map",
+    "main.97f97359.css.map": "/Ecom-Site/static/css/main.97f97359.css.map",
+    "main.6cd72f2c.js.map": "/Ecom-Site/static/js/main.6cd72f2c.js.map",
     "787.0da601b3.chunk.js.map": "/Ecom-Site/static/js/787.0da601b3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b1b8e3d1.css",
-    "static/js/main.550161da.js"
+    "static/css/main.97f97359.css",
+    "static/js/main.6cd72f2c.js"
   ]
 }
